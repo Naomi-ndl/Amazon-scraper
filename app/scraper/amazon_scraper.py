@@ -1,4 +1,5 @@
 
+from app.database import creer_base, enregistrer_produits
 from app.controllers.scraping_controller import lancer_scraping
 from app.models.produit import Produit
 from app.models.depot import Depot
@@ -10,6 +11,8 @@ def main():
     url = "https://www.amazon.com/s?k=bluetooth+headphones"
 
     donnees = lancer_scraping(url)
+    creer_base()
+    enregistrer_produits(donnees)
 
     depot = Depot()
 
