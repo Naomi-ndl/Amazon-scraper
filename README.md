@@ -141,14 +141,3 @@ Les données sont sauvegardées dans le dossier `data`.
 - `data.csv` contient le nom et le prix des produits. Il peut être ouvert avec Excel ou un autre tableur.
 - `amazon.db` est une base de données SQLite. Elle peut être consultée avec une extension comme SQLite Viewer dans Visual Studio Code.
 
-## 11. Difficultés rencontrées
-
-Pendant le développement, j'ai rencontré des difficultés pour récupérer les produits avec les sélecteurs Selenium. Au début, le programme ne récupérait pas correctement les noms et les prix. J'ai donc ajusté les sélecteurs utilisés pour rechercher les éléments sur la page.
-
-J'ai aussi appris à organiser le code dans plusieurs fichiers et à enregistrer les données dans une base de données SQLite.
-
-## 12. Conclusion
-
-Ce projet m'a permis de pratiquer Python et de découvrir le web scraping avec Selenium. J'ai aussi appris à sauvegarder les données dans un fichier CSV et dans une base de données SQLite. Enfin, j'ai utilisé Git et GitHub pour suivre les modifications du projet et partager le code.
-
-
