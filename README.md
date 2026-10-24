@@ -7,7 +7,4 @@ Ce projet utilise Python et Selenium pour récupérer les noms et les prix des p
 - Python
 - Selenium
 
-## Lancement
-```bash
-python -m app.scraper.amazon_scraper
-```
+
